@@ -1,10 +1,8 @@
-export const App = () => {
-  return (
-    <>
-      <h1>This is a container App</h1>
-      <button></button>
-    </>
-  );
-};
-
+import ListOfBreaking from "./components/ListOfBreaking";
+import "./style.css";
+const App = () => (
+  <div className="breaking-app">
+    <ListOfBreaking />
+  </div>
+);
 export default App;
